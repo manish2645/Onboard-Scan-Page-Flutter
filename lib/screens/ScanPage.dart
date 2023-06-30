@@ -48,7 +48,34 @@ class _ScanPageState extends State<ScanPage> {
       body: Container(
         child: CameraScreen(),
       ),
-      bottomNavigationBar: ,
+      bottomSheet: Container(
+
+        child: const SizedBox(
+          height: 100,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                IconButton(
+                  onPressed: null, 
+                  icon: Icon(Icons.image, 
+                  color: Color.fromARGB(255, 40, 40, 40), size: 50,)
+                ),
+                 IconButton(
+                  onPressed: null, 
+                  icon: Icon(Icons.camera_alt, 
+                  color: Color.fromARGB(255, 40, 40, 40), size: 50,)
+                ),
+                 IconButton(
+                  onPressed: null, 
+                  icon: Icon(Icons.image, 
+                  color: Color.fromARGB(255, 40, 40, 40), size: 50,)
+                )
+              ],
+            )
+          ),
+      ),
     );
   }
 }
