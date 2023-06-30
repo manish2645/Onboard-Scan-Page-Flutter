@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:onboard_member_scan/screens/MemberPageScreen.dart';
+import 'package:onboard_member_scan/screens/ScanPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'OnBoard Member Scan',
       initialRoute: '/',
       routes: {
-        '/': (context) => const MemberScan(),
+        //'/': (context) => const MemberScan(),
+        '/':(context) => const ScanPage(),
       },
     );
   }
