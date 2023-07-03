@@ -644,6 +644,7 @@ class _ImportFileState extends State<ImportFile> {
                       child: ElevatedButton(
                         onPressed: () {
                           // Import File functions
+                          Navigator.pushNamed(context, '/camera');
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255,51,53,125)),
