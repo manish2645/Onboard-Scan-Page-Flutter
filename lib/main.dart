@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:onboard_member_scan/screens/Camera.dart';
+import 'package:onboard_member_scan/screens/ConvertPage.dart';
 import 'package:onboard_member_scan/screens/MemberPageScreen.dart';
 import 'package:onboard_member_scan/screens/ScanPage.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const MemberScan(),
         '/scan':(context) => const ScanPage(),
-        '/camera' : (context) => CameraScreen(),
+        '/convert':(context) => const ConvertPageScreen(),
       },
     );
   }
